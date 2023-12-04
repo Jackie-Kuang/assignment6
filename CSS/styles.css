@@ -1,0 +1,212 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero{
+  height: 120vh;
+  width: 100%;
+  background-image: url("/images/car (1).jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+nav{
+  display: flex ;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.logo{
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span{
+  color: rgb(0, 204, 255);
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover{
+  color: rgb(0, 204, 255);
+  transition: .4s;
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-160%);
+}
+
+h1{
+  transform: translate(50px, 160px);
+  color: white;
+  margin: 0px 0px 0px;
+  font-size: 150px;
+}
+
+h3{
+
+  transform: translate(620px, 150px);
+  color: white;
+  font-size: 25px;
+}
+
+.about{
+  width: 100%;
+  padding: 10px 0px;
+  background-color: black;
+  display: flex;
+}
+
+.about img{
+  margin-right: 90px;
+  margin-bottom: 90px;
+  width: 50%;
+  float: right;
+}
+
+.main{
+  margin: 10, auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text h2{
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.about-text p{
+  color: #ffffff;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  line-height: 40px;
+  font-size: 27px;
+  margin-left: 20px;
+  margin-bottom: 45px;
+}
+
+
+.objective{
+  padding: 10px 0px;
+  width: 100%;
+  background-color: black;
+  margin: 10, auto;
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.objective img{
+  margin-bottom: 90px;
+  width: 50%;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+}
+
+.objective-text{
+  box-sizing: border-box;
+  float: right;
+  letter-spacing: 1px;
+  line-height: 40px;
+  font-size: 27px;
+  margin-right: 20px;
+  margin-bottom: 45px;
+  width: 50%;
+}
+
+.main2{
+  max-width: 100%;
+  margin: 0, auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.objective-text h2{
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.objective-text p{
+  color: #ffffff;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin-left: 0px;
+  margin-bottom: 45px;
+
+}
+
+.main3{
+  background-color: black;
+  width: 100%;
+  max-width: 100%;
+  margin: 10, auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: baseline;
+  justify-content:space-evenly;
+  gap: 5rem;
+
+}
+
+.main3 img{
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 349px;
+  width: 510px;
+}
+
+.gallery{
+  background-color: black;
+  color: white;
+  font-size: 75px;
+}
+
+.gallery h2{
+display: flex;
+justify-content: center;
+transform: translate(0, -50px);
+}
+
+.slideshow{
+margin-left: 100px;
+}
+
+.footer{
+background-color: black;
+color: white;
+font-size: 1.2em;
+display: flex;
+justify-content: center;
+padding: 30px;
+}
